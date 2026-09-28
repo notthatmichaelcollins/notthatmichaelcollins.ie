@@ -1,0 +1,20 @@
+# Where images uploaded through Pages CMS will be saved in your repo
+media:
+  input: "index_files"
+  output: "/index_files"
+
+# Define the HTML pages you want to edit in the CMS
+content:
+  - name: pages
+    label: "Website Pages"
+    type: file
+    files:
+      - name: home
+        label: "Homepage"
+        path: "index.html"
+      - name: bio
+        label: "Bio / About Page"
+        path: "bio.html"
+      - name: contact
+        label: "Contact Page"
+        path: "contact.html"
