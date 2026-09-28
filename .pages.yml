@@ -9,8 +9,10 @@ content:
     path: "index.html"
     fields:
       - name: body
-        label: "HTML Content"
-        type: rich-text
+        label: "HTML Source Code"
+        type: code
+        options:
+          language: html
 
   - name: bio
     label: "Bio Page"
@@ -18,8 +20,10 @@ content:
     path: "bio.html"
     fields:
       - name: body
-        label: "HTML Content"
-        type: rich-text
+        label: "HTML Source Code"
+        type: code
+        options:
+          language: html
 
   - name: contact
     label: "Contact Page"
@@ -27,5 +31,7 @@ content:
     path: "contact.html"
     fields:
       - name: body
-        label: "HTML Content"
-        type: rich-text
+        label: "HTML Source Code"
+        type: code
+        options:
+          language: html
