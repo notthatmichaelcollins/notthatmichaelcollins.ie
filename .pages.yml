@@ -28,4 +28,34 @@ content:
     fields:
       - name: body
         label: "HTML Content"
+        type: rich-textmedia:
+  input: "index_files"
+  output: "/index_files"
+
+content:
+  - name: home
+    label: "Homepage"
+    type: file
+    path: "index.html"
+    fields:
+      - name: body
+        label: "HTML Content"
+        type: rich-text
+
+  - name: bio
+    label: "Bio Page"
+    type: file
+    path: "bio.html"
+    fields:
+      - name: body
+        label: "HTML Content"
+        type: rich-text
+
+  - name: contact
+    label: "Contact Page"
+    type: file
+    path: "contact.html"
+    fields:
+      - name: body
+        label: "HTML Content"
         type: rich-text
