@@ -3,28 +3,29 @@ media:
   output: "/index_files"
 
 content:
-  - name: pages
-    label: "Pages"
+  - name: home
+    label: "Homepage"
     type: file
-    files:
-      - name: home
-        label: "Home (index.html)"
-        path: "index.html"
-        fields:
-          - name: body
-            label: "Page HTML"
-            type: rich-text
-      - name: bio
-        label: "Bio Page"
-        path: "bio.html"
-        fields:
-          - name: body
-            label: "Page HTML"
-            type: rich-text
-      - name: contact
-        label: "Contact Page"
-        path: "contact.html"
-        fields:
-          - name: body
-            label: "Page HTML"
-            type: rich-text
+    path: "index.html"
+    fields:
+      - name: body
+        label: "HTML Content"
+        type: rich-text
+
+  - name: bio
+    label: "Bio Page"
+    type: file
+    path: "bio.html"
+    fields:
+      - name: body
+        label: "HTML Content"
+        type: rich-text
+
+  - name: contact
+    label: "Contact Page"
+    type: file
+    path: "contact.html"
+    fields:
+      - name: body
+        label: "HTML Content"
+        type: rich-text
